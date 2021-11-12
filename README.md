@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/jiCIyxJW2GmHQN2CeJuz">
       Solution
     </a>
     <span> | </span>
@@ -31,10 +31,10 @@
 
 ## Overview
 
-# Desktop
+### Desktop
 ![screenshot](src/images/screenshot-desktop.jpg)
 
-# Mobile
+### Mobile
 ![screenshot](src/images/screenshot-mobile.jpg)
 
 
