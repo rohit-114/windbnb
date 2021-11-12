@@ -1,0 +1,9 @@
+header {
+  font-family: Mulish;
+  padding: 10px;
+  margin-bottom: 48px;
+}
+
+header button {
+  width: 10%;
+}

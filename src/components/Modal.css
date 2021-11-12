@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding: 16px 0;
+  height: 55vh;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  overflow: overlay;
+}
+
+.close {
+  font-family: Mulish;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5%;
+  border: none;
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 599px) {
+  .modal {
+    height: 83%;
+  }
+  .close {
+    display: block;
+  }
+  .modal > div.searchbar-container {
+    flex-direction: column;
+    border-right: none;
+  }
+  .modal div.searchtext-container {
+    width: 100%;
+    box-shadow: 0px 1px 6px 0px #0000001a;
+    border: none;
+    border-radius: 16px;
+  }
+  .modal div.searchtext-container:nth-child(2) div.search-text {
+    box-shadow: 0px 1px 1px 0px #0000001a;
+    border-radius: 16px;
+  }
+  .modal div.searchtext-container:nth-child(1) {
+    margin-bottom: 6px;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .modal > div.searchbar-container {
+    font-size: 0.9rem;
+  }
+}

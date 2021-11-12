@@ -1,0 +1,26 @@
+li {
+  padding: 0.9rem;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.list-container:hover {
+  width: 11rem;
+  background: rgba(161, 161, 161, 0.5);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.room-icon {
+  color: #4f4f4f;
+}
+
+@media (max-width: 599px) {
+  .list-container {
+    font-size: 0.9rem;
+  }
+}

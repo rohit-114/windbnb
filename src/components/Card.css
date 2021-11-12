@@ -1,0 +1,123 @@
+h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.image-container {
+  height: 70%;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin: 12px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.p-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 72%;
+  height: 100%;
+  align-items: center;
+}
+
+.p-container > p:first-child {
+  color: #828282;
+}
+
+.super-host {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-right: 10px;
+  padding: 4px 2px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48px;
+}
+
+.star-icon {
+  font-size: 1.35rem;
+  color: #eb5757;
+}
+
+@media (max-width: 599px) {
+  h4 {
+    font-size: 0.92rem;
+  }
+  .card {
+    width: 100%;
+    height: 365px;
+  }
+  .container {
+    padding: 12px 0;
+  }
+  .p-container {
+    font-size: 0.8rem;
+  }
+  .super-host {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .card {
+    width: 100%;
+    height: 355px;
+  }
+  .container {
+    padding: 12px 0;
+  }
+  .p-container {
+    font-size: 0.8rem;
+  }
+  .super-host {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  h4 {
+    font-size: 0.85rem;
+  }
+  .card {
+    width: 100%;
+    height: 320px;
+  }
+  .container {
+    padding: 12px 0;
+  }
+  .p-container {
+    font-size: 0.75rem;
+  }
+  .super-host {
+    font-size: 0.6rem;
+  }
+}
