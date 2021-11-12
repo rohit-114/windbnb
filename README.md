@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="http://rohit-114.github.io/windbnb">
       Demo
     </a>
     <span> | </span>
